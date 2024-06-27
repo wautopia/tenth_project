@@ -2,7 +2,7 @@ import VisualSlider from '../Model/m_visual_slider';
 
 function Main() {
     return (
-        <div className="Main">
+        <div className="Main" >
             <VisualSlider/>
         </div>
     )
