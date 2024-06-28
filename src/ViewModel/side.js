@@ -1,7 +1,8 @@
 import MovieLogo from '../Model/s_movie_logo';
 import SideVisual from '../Model/s_visual';
 import SideTrailer from '../Model/s_trailer';
-import News from '../Model/s_-News.js';
+import News from '../Model/s_-News';
+import SNS from '../Model/s_-Official_SNS';
 
 function Side() {
     return (
@@ -9,7 +10,8 @@ function Side() {
             <MovieLogo />
             <SideVisual />
             <SideTrailer />
-            <News/>
+            <News />
+            <SNS/>
         </div>
     )
 }

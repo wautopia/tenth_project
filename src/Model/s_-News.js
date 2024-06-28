@@ -7,7 +7,7 @@ function News() {
             <Title
                 title={headingSNS}
             />
-            <div className="mt-3 mb-3  positon-fixed overflow-y-auto " >
+            <div className="mt-3 mb-3  positon-fixed overflow-y-auto" >
                 <Detail
                     date="2024.05.16"
                     link="https://violet-evergarden.jp/news/?id=204"
