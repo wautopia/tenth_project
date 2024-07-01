@@ -4,7 +4,7 @@ import Detail from '../Model/s_news_detail';
 import headingSNS from '../Media/s_heading_News.png';
 function News() {
     return (
-        <div className="News pt-3 ps-4 pe-3 pb-4 shadow" width="316px" height="399px">
+        <div className="News pt-3 ps-4 pe-3 pb-4 shadow" style={{width:'97%'} } >
             <Title
                 title={headingSNS}
             />
